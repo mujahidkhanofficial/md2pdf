@@ -159,11 +159,21 @@ Returns a standard binary octet-stream containing the PDF document.
     margin: 'compact',
     showHeader: false,
     showFooter: false,
-    markdown: `# ALEXANDER HAMILTON
-**Chief Solutions Architect**  
-*New York, NY | alexander@hamilton-architects.io | (555) 1789-1804 | github.com/ahamilton*
-
----
+    markdown: `<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; border-bottom: 1px solid #e2e8f0; padding-bottom: 20px;">
+  <div>
+    <h1 style="margin: 0; font-size: 2.2em; font-weight: 700; color: #0f172a; border: none; padding: 0; line-height: 1.1;">ALEXANDER HAMILTON</h1>
+    <div style="font-size: 1.1em; font-weight: 600; color: #4f46e5; margin-top: 6px;">Chief Solutions Architect</div>
+    <div style="font-size: 0.9em; color: #475569; margin-top: 10px; line-height: 1.5;">
+      New York, NY &nbsp;|&nbsp; alexander@hamilton-architects.io &nbsp;|&nbsp; (555) 1789-1804<br/>
+      github.com/ahamilton
+    </div>
+  </div>
+  <img 
+    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face&q=80" 
+    alt="Alexander Hamilton" 
+    style="width: 85px; height: 85px; border-radius: 50%; object-fit: cover; border: 3px solid #e2e8f0; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);"
+  />
+</div>
 
 ## Professional Profile
 Dynamic and results-driven Software Architect with 12+ years of experience leading teams, designing cloud infrastructure architectures, and building pixel-perfect interactive client-side systems. Specialized in React, TypeScript, Rust, and compiler optimizations.
